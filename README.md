@@ -13,11 +13,11 @@ A full-stack Hospital Management System featuring a responsive web portal and a 
 
 | Mobile Splash Screen | Patient Dashboard | Doctor Management |
 |:---:|:---:|:---:|
-| ![Splash Screen](screenshots/splash.png) | ![Patient Portal](screenshots/patient.png) | ![Admin Doctors](screenshots/doctors.png) |
+| ![Splash Screen](Screenshots/splash.png) | ![Patient Portal](Screenshots/patient.png) | ![Admin Doctors](Screenshots/doctors.png) |
 
 | Admin Dashboard | Appointment Booking |
 |:---:|:---:|
-| ![Admin Stats](screenshots/admin.png) | ![Booking System](screenshots/booking.png) |
+| ![Admin Stats](Screenshots/admin.png) | ![Booking System](Screenshots/booking.png) |
 
 ---
 
@@ -103,4 +103,4 @@ A full-stack Hospital Management System featuring a responsive web portal and a 
 ## 👤 Author
 
 B.BHAVADHARANI  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bhavadharani25/)) 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bhavadharani25/)
