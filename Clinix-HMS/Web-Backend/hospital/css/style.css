@@ -1,0 +1,67 @@
+:root {
+    --primary: #0d6efd;
+    --primary-dark: #0a58ca;
+}
+body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    background: #f0f2f5;
+    min-height: 100vh;
+}
+.stat-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 1.25rem;
+    box-shadow: 0 1px 6px rgba(0,0,0,.06);
+    border-left: 4px solid var(--primary);
+    transition: transform .2s ease;
+}
+.stat-card:hover { transform: translateY(-2px); }
+.stat-card .stat-icon { font-size: 1.8rem; opacity: .75; }
+.stat-card .stat-number { font-size: 1.6rem; font-weight: 700; color: #1a1a2e; }
+.card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 1px 6px rgba(0,0,0,.06);
+}
+.table { font-size: .875rem; }
+.table th { font-weight: 600; border-bottom-width: 2px; white-space: nowrap; }
+.badge-status { font-size: .72rem; padding: 4px 10px; border-radius: 20px; }
+.hero-section {
+    background: linear-gradient(135deg, #0d6efd 0%, #0a58ca 50%, #084298 100%);
+    color: #fff;
+    padding: 4.5rem 0;
+    border-radius: 0 0 2rem 2rem;
+    margin-top: -1px;
+}
+.hero-section h1 { font-weight: 800; font-size: 2.4rem; }
+.hero-section p { opacity: .9; }
+.btn-primary { background: var(--primary); border-color: var(--primary); }
+.btn-primary:hover { background: var(--primary-dark); border-color: var(--primary-dark); }
+.form-control:focus, .form-select:focus {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 .2rem rgba(13,110,253,.15);
+}
+.alert { animation: slideDown .3s ease; }
+@keyframes slideDown {
+    from { opacity: 0; transform: translateY(-10px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+.doc-avatar {
+    width: 64px; height: 64px;
+    background: var(--primary);
+    color: #fff;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+}
+@media (max-width: 576px) {
+    .hero-section { padding: 2.5rem 0; }
+    .hero-section h1 { font-size: 1.6rem; }
+    .stat-card { padding: .85rem; }
+    .stat-card .stat-number { font-size: 1.25rem; }
+    .stat-card .stat-icon { font-size: 1.3rem; }
+    .table { font-size: .78rem; }
+    .btn-sm { font-size: .75rem; padding: .2rem .5rem; }
+}
