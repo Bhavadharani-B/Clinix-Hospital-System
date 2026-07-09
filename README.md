@@ -103,4 +103,4 @@ A full-stack Hospital Management System featuring a responsive web portal and a 
 ## 👤 Author
 
 B.BHAVADHARANI  
-[![LinkedIn](https://www.linkedin.com/in/bhavadharani25/) 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bhavadharani25/)) 
